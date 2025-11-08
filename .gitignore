@@ -1,0 +1,64 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go build command
+*.out
+
+# Build and release directories
+bin/
+build/
+dist/
+release/
+
+# Dependency directories (if any vendoring is used)
+vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Coverage and profiling
+*.prof
+coverage.out
+
+# Config files (optional, if you store local-only config)
+.env
+.env.local
+config.yaml
+config.json
+
+# Cache
+.cache/
+go.sum
+
+# Module cache (not needed usually)
+pkg/
+
+# Test data
+testdata/
+
+# Ignore Go workspace file (Go 1.18+)
+go.work
+go.work.sum
+
+# Local debug/run files
+debug/
+tmp/
